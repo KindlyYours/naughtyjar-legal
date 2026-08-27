@@ -1,4 +1,4 @@
-NaughtyJar — public website
+# NaughtyJar — public website
 
 ## Português
 
@@ -38,6 +38,6 @@ control.
 
 ## Website
 
-<https://KindlyYours.github.io/naughtyjar-legal/>
+<https://schwrink3r.github.io/naughtyjar-legal/>
 
 © 2026 NaughtyJar. All rights reserved.
