@@ -36,6 +36,6 @@ The website is available in Portuguese and English.
 
 ## Website
 
-<https://schwrink3r.github.io/naughtyjar-legal/>
+<https://kindlyyours.github.io/naughtyjar-legal>
 
 © 2026 NaughtyJar. All rights reserved.
