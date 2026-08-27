@@ -32,9 +32,7 @@ and does not require a server or database.
 - Privacy policy
 - Terms of use
 
-The website is available in Portuguese and English. The `style.css` and
-`theme.js` files provide the shared visual style and light/dark appearance
-control.
+The website is available in Portuguese and English.
 
 ## Website
 
