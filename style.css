@@ -22,7 +22,7 @@ body:has(.home)::before { position: fixed; z-index: 0; right: -10rem; bottom: -5
 body:has(.home) > footer { position: relative; z-index: 1; }
 .home { position: relative; width: min(100%, 1120px); margin: 0 auto; }
 .card { width: min(100%, 960px); margin: 0 auto; }
-.home::before { position: absolute; z-index: 0; top: -4.5rem; right: -7rem; width: min(47rem, 57vw); aspect-ratio: 2 / 3; content: ""; background: url("img/jar-watermark.png") center / contain no-repeat; opacity: .055; filter: saturate(.7) blur(.4px); pointer-events: none; }
+.home::before { position: absolute; z-index: 0; top: 9.5rem; right: -7rem; width: min(47rem, 57vw); aspect-ratio: 2 / 3; content: ""; background: url("img/jar-watermark.png") center / contain no-repeat; opacity: .055; filter: saturate(.7) blur(.4px); pointer-events: none; }
 .home > * { position: relative; z-index: 1; }
 .home-brand { display: inline-flex; align-items: center; gap: .85rem; color: #321628; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.65rem, 3vw, 2.3rem); font-weight: 700; letter-spacing: -.045em; }
 .home-brand img { display: block; width: 45px; height: 67px; object-fit: contain; }
