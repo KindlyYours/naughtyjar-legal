@@ -1,4 +1,4 @@
-# NaughtyJar — public repo/website <a href='https://ko-fi.com/F3H625VG06' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+# NaughtyJar — public repo/website
 
 ## Português
 
@@ -54,5 +54,7 @@ control.
 ## Website
 
 <https://KindlyYours.github.io/naughtyjar-legal/>
+
+<a href='https://ko-fi.com/F3H625VG06' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 © 2026 NaughtyJar. All rights reserved.
