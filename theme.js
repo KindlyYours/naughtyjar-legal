@@ -74,7 +74,7 @@
     supportButton.target = "_blank";
     supportButton.rel = "noopener noreferrer";
     supportButton.setAttribute("aria-label", portuguese ? "Apoiar o NaughtyJar no Ko-fi" : "Support NaughtyJar on Ko-fi");
-    supportButton.innerHTML = `<img src="${nestedPage ? "../" : ""}img/logo.png" alt=""><span>${portuguese ? "Apoiar" : "Support"}</span>`;
+    supportButton.innerHTML = `<img src="${nestedPage ? "../" : ""}img/logo.png" alt=""><span>${portuguese ? "Buy me a coffee" : "Buy me a coffee"}</span>`;
     document.body.append(supportButton);
   });
 })();
