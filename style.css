@@ -91,7 +91,8 @@ footer a:hover { color: #8c216f; }
 .theme-control button:hover { color: #8a176f; }
 .theme-control button[aria-pressed="true"] { background: rgb(255 255 255 / 88%); color: #5a143e; box-shadow: 0 .1rem .4rem rgb(60 24 55 / 12%); }
 .theme-control button:focus-visible { outline: 2px solid #a13484; outline-offset: 2px; }
-.kofi-floating { position: fixed; z-index: 9; right: 1.25rem; bottom: 4.5rem; display: inline-flex; align-items: center; gap: .45rem; min-height: 2.8rem; padding: .35rem .85rem .35rem .5rem; border: 1px solid rgb(212 44 109 / 60%); border-radius: 999px; background: rgb(255 255 255 / 88%); box-shadow: 0 .45rem 1.2rem rgb(100 30 80 / 16%); color: #8c216f; font-size: .85rem; font-weight: 750; text-decoration: none; backdrop-filter: blur(10px); }
+
+.kofi-floating { position: fixed; z-index: 9; right: 1.25rem; bottom: 4.5rem; display: inline-flex; align-items: center; gap: .45rem; min-height: 2.8rem; padding: .35rem .85rem .35rem .5rem; border: 2px solid rgb(76 76 76 / 60%); border-radius: 999px; background: rgb(255 255 255 / 88%); box-shadow: 0 .45rem 1.2rem rgb(76 76 76 / 16%); color: #4C4C4C; font-size: .85rem; font-weight: 750; text-decoration: none; backdrop-filter: blur(10px); }
 .kofi-floating img { width: 1.55rem; height: 2.3rem; object-fit: contain; }
 .kofi-floating:hover { background: #fff0f6; transform: translateY(-1px); }
 
