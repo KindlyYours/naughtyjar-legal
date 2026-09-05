@@ -182,8 +182,8 @@ small { color: #7e727e; }
   .language-strip a { color: #ffafe1; }
   .document-header .back-link { border-color: rgb(255 218 247 / 28%); background: rgb(48 34 50 / 82%); box-shadow: none; color: #ffafe1; }
   .document-content { border-color: rgb(255 218 247 / 12%); background: rgb(48 34 50 / 90%); box-shadow: none; }
-  .kofi-floating { border-color: rgb(255 175 225 / 55%); background: rgb(48 34 50 / 90%); color: #ffafe1; box-shadow: none; }
-  .kofi-floating:hover { background: #4a3149; }
+  .kofi-floating { border-color: #fff; background: #4c4c4c; color: #fff; box-shadow: none; }
+  .kofi-floating:hover { background: #5a5a5a; }
   .document-content h2 { color: #ffc6ee; }
   .home::before { opacity: .09; }
   .site-language-strip span { color: #ffafe1; }
@@ -210,8 +210,8 @@ html[data-theme="dark"] .faq details, html[data-theme="dark"] .footer-divider { 
 html[data-theme="dark"] .faq code { background: #4a3149; color: #ffafe1; }
 html[data-theme="dark"] .language-link { border-color: rgb(255 218 247 / 16%); }
 html[data-theme="dark"] .document-content { border-color: rgb(255 218 247 / 12%); background: rgb(48 34 50 / 90%); box-shadow: none; }
-html[data-theme="dark"] .kofi-floating { border-color: rgb(255 175 225 / 55%); background: rgb(48 34 50 / 90%); color: #ffafe1; box-shadow: none; }
-html[data-theme="dark"] .kofi-floating:hover { background: #4a3149; }
+html[data-theme="dark"] .kofi-floating { border-color: #fff; background: #4c4c4c; color: #fff; box-shadow: none; }
+html[data-theme="dark"] .kofi-floating:hover { background: #5a5a5a; }
 html[data-theme="dark"] .theme-control { border-color: rgb(255 218 247 / 35%); background: rgb(48 34 50 / 78%); box-shadow: none; }
 html[data-theme="dark"] .theme-control button { color: #e6d8e4; }
 html[data-theme="dark"] .theme-control button:hover { color: #ffafe1; }
