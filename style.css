@@ -149,47 +149,6 @@ small { color: #7e727e; }
 @media (max-width: 720px) { .feature-grid, .resource-section { grid-template-columns: 1fr; } .feature-grid { gap: .75rem; } .home h1 { font-size: clamp(2.75rem, 11vw, 4.6rem); } .hero { margin-top: 4.75rem; text-align: left; } .hero-actions { justify-content: flex-start; gap: .75rem; } .button { min-width: 0; min-height: 3.25rem; } .site-language-strip { justify-content: flex-start; } }
 @media (max-width: 620px) { .language-grid { grid-template-columns: 1fr; } .home::before, .document-page::before { top: 1rem; right: -7rem; width: 28rem; opacity: .035; } .home-brand { font-size: 1.55rem; } .home-brand img { width: 45px; height: 67px; } .document-header::before { min-height: 67px; padding-left: calc(45px + .85rem); background-size: 45px 67px; font-size: 1.55rem; } .document-header .back-link { top: .65rem; left: .65rem; } .hero { margin-bottom: 2.5rem; padding-top: 0; } .feature-card { padding: 1.45rem; } .theme-control { top: .65rem; right: .65rem; } .site-footer { align-items: flex-start; flex-direction: column; } }
 
-@media (prefers-color-scheme: dark) 
-{
-  :root { color-scheme: dark; background: #1e1620; color: #f6edf6; }
-  body { background: radial-gradient(circle at 10% 0%, #41253e 0, transparent 28rem), #1e1620; }
-  .language-card, .card { border-color: rgb(255 218 247 / 12%); background: rgb(48 34 50 / 90%); box-shadow: none; }
-  .feature-card { border-color: rgb(255 218 247 / 12%); background: rgb(48 34 50 / 72%); }
-  .intro, .language-heading p, .document-link small, small { color: #c5b7c4; }
-  .document-link { background: #3c2a3d; color: #f6edf6; }
-  .document-link:hover { background: #4a3149; }
-  .flag { background: #4b2d47; color: #ffc7ef; }
-  .card h1, .card h2 { color: #ffc6ee; }
-  .card a, .document-link > span:last-child { color: #ffafe1; }
-  .button-primary { background: #c448a1; color: #241522; }
-  .document-content a.button-primary { color: #241522; }
-  .button-primary:hover { background: #e266bb; }
-  .button-secondary { border-color: rgb(255 218 247 / 16%); background: #3c2a3d; color: #ffafe1; }
-  .button-secondary:hover { background: #4a3149; }
-  .feature-card h2, .resource-section h2, .faq summary, .home h1, .document-header h1 { color: #ffc6ee; }
-  .feature-card p, .resource-section > div > p:last-child, .faq details p { color: #c5b7c4; }
-  .faq details, .footer-divider { border-color: rgb(255 218 247 / 12%); }
-  .faq code { background: #4a3149; color: #ffafe1; }
-  .back-link, .document-intro, .document-header small { color: #c5b7c4; }
-  .back-link:hover, .language-link { color: #ffafe1; }
-  .language-link { border-color: rgb(255 218 247 / 16%); }
-  .language-link:hover { background: #4a3149; }
-  .document-brand span, .document-content a { color: #ffafe1; }
-  footer a { color: #ffafe1; }
-  .home-brand, .document-header::before { color: #fff0fa; }
-  .eyebrow { color: #ffafe1; }
-  .language-strip, footer, .footer-pending { color: #dbcada; }
-  .language-strip a { color: #ffafe1; }
-  .document-header .back-link { border-color: rgb(255 218 247 / 28%); background: rgb(48 34 50 / 82%); box-shadow: none; color: #ffafe1; }
-  .document-content { border-color: rgb(255 218 247 / 12%); background: rgb(48 34 50 / 90%); box-shadow: none; }
-  .kofi-floating { border-color: #fff; background: #4c4c4c; color: #fff; box-shadow: none; }
-  .kofi-floating:hover { background: #5a5a5a; }
-  .document-content h2 { color: #ffc6ee; }
-  .home::before { opacity: .09; }
-  .site-language-strip span { color: #ffafe1; }
-  body:has(.home)::before { display: none; }
-}
-
 /* An explicit appearance choice takes priority over the device setting. */
 html[data-theme="dark"] { color-scheme: dark; background: #1e1620; color: #f6edf6; }
 html[data-theme="dark"] body { background: radial-gradient(circle at 10% 0%, #41253e 0, transparent 28rem), #1e1620; }

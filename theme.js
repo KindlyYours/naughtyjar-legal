@@ -1,7 +1,7 @@
 (() => {
   const storageKey = "naughtyjar-theme";
   const languageKey = "naughtyjar-language";
-  const themes = ["light", "auto", "dark"];
+  const themes = ["light", "dark"];
   const root = document.documentElement;
   const savedTheme = localStorage.getItem(storageKey);
   root.dataset.theme = themes.includes(savedTheme) ? savedTheme : "auto";
@@ -41,15 +41,14 @@
     });
     const portuguese = root.lang.startsWith("pt");
     const labels = portuguese
-      ? { light: "Modo claro", auto: "Usar aspeto do dispositivo", dark: "Modo escuro" }
-      : { light: "Light appearance", auto: "Use device appearance", dark: "Dark appearance" };
+      ? { light: "Modo claro", dark: "Modo escuro" }
+      : { light: "Light appearance", dark: "Dark appearance" };
     const control = document.createElement("div");
     control.className = "theme-control";
     control.setAttribute("role", "group");
     control.setAttribute("aria-label", portuguese ? "Aspeto do site" : "Site appearance");
     control.innerHTML = `
       <button type="button" data-theme-choice="light" aria-label="${labels.light}"><span aria-hidden="true">☀︎</span></button>
-      <button type="button" data-theme-choice="auto" aria-label="${labels.auto}">Auto</button>
       <button type="button" data-theme-choice="dark" aria-label="${labels.dark}"><span aria-hidden="true">☾</span></button>`;
 
     const applyTheme = (theme) => {
