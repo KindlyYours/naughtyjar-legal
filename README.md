@@ -3,8 +3,7 @@
 ## Português
 
 O NaughtyJar é uma app privada que transforma momentos partilhados num valor
-que tu vais juntando para depois gastares numa prenda futura, quem sabe no
-Natal (wink wink).
+que tu vais juntando para depois gastares na prenda de Natal.
 <br><br>
 Foi pensado para ser simples, íntimo e respeitador: os teus registos ficam no
 teu dispositivo, sem conta obrigatória, publicidade ou tracking.
@@ -17,7 +16,7 @@ suporte, política de privacidade e termos de utilização.
 ## English
 
 NaughtyJar is a private app that turns shared moments into an amount you set
-aside to spend later on a future gift — perhaps for Christmas (wink wink).
+aside to spend later on the Christmas gift.
 <br><br>
 It is designed to be simple, intimate, and respectful: your records stay on
 your device, with no required account, advertising, or tracking.
